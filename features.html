@@ -7,84 +7,55 @@
     <link rel="stylesheet" href="styles.css">
      <link rel="stylesheet" href="About.html">
     <link rel="stylesheet" href="contact.html">
-    <link rel="stylesheet" href="index.html"> 
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="hacker.html"> 
     <!-- Optional: Google Fonts --> 
-    <link 
-href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" 
-rel="stylesheet"> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKER STYLES LOGIN - Services</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: aquamarine;">
-      <header class="site-header"> 
-        <div class="container"> 
-        
-            
-            <a href="#" class="logo">HOPE OF AFRICA</a> 
-            
-            <!-- Mobile Navigation Toggle -->
-            <div class="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+<body>
+    <header>
+        <div class="logo">HACKER STYLES LOGIN</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="features.html" class="active">Services</a></li>
+                <li><a href="hacker.html">hacker</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h1>Our Services</h1>
+            <p>We offer a comprehensive suite of services tailored to meet your unique needs.</p>
+
+            <div class="service-list">
+                <article class="service-card">
+                    <h3>Consulting & Strategy</h3>
+                    <p>Expert guidance to define your goals and plot a clear path to success.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Project Implementation</h3>
+                    <p>Full-scale execution of projects, from planning to final deployment.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Training & Development</h3>
+                    <p>Workshops and programs to upskill your team and boost performance.</p>
+                </article>
             </div>
-            
-            <nav class="nav"> 
-                <ul> 
-                    <li><a href="index.html">Home</a></li> 
-                    <li><a href="About.html">About</a></li> 
-                    <li><a href="features.html">features</a></li>  
-                    <li><a href="contact.html">Contact</a></li> 
-                </ul> 
-            </nav> 
-        </div>
-    </header> 
- 
-     <!-- ==== Features ==== --> 
-    <section id="features" class="features"> 
-        <div class="container"> 
-            <h2 class="section-title">Why Choose Us?</h2> 
-            <div class="grid"> 
-                <article class="card"> 
-                    <h3>CARE &amp; AFFECTION</h3> 
-                    <p style="background-color: blueviolet;">HOPE OF AFRICA –  is dedicated to being relationship-oriented in
-                        our living and working together. we desire to be united through lives of holiness
-                    , mutual support, transparency, humility, and open communication, rather than a dependence
-                on structures or rules.</p> 
-                </article> 
-                <article class="card"> 
-                    <h3>RESPONSIVE</h3> 
-                    <p style="background-color: blueviolet;">Works on discrimnation, equality and freedom of all people. HOPE of AFRICA affirms the 
-                        minister of hospitality as an expression of God's character and the value of people.
-                    </p> 
-                </article> 
-                <article class="card"> 
-                    <h3>ATTENTION</h3> 
-                    <p style="background-color: blueviolet;">value the individual HOPE OF AFRICA is called to vallue each
-                        individual. we believe in equal opportunity and justice for All
-                        create in the image of God,people of all nationalities, ages
-                        and functions have distinctive contributions and calling.</p> 
-                </article> 
-            </div> 
-        </div> 
-    </section> 
-     <!-- ==== Footer ==== --> 
-    <footer class="site-footer"> 
-        <div class="container"> 
-            <p>&copy; <span id="year"></span> hope of africa@ 2025. All rights reserved.</p> 
-        </div> 
-    </footer> 
- 
-    <script> 
-        // Simple mobile menu toggle 
-        const toggle = document.querySelector('.nav-toggle'); 
-        const nav = document.querySelector('.nav ul'); 
-        toggle.addEventListener('click', () => { 
-            nav.classList.toggle('open'); 
-            toggle.classList.toggle('active'); 
-        }); 
- 
-        // Update year automatically 
-        document.getElementById('year').textContent = new Date().getFullYear(); 
-    </script> 
-    
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HACKER STYLES LOGIN. All rights reserved.</p>
+    </footer>
 </body>
 </html>
